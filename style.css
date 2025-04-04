@@ -13,7 +13,7 @@ body {
   min-height: 100vh; /* Ocupa toda a altura da tela */
   background: linear-gradient(to bottom, #ffffff, #455581a4);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 25px;
 }
 
 /* Estilização do cabeçalho */
@@ -23,15 +23,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 50px;
   background-color: rgb(3, 3, 3);
-  
-  position: fixed; /* Mantém o header sempre visível */
-  top: 20px; /* Mantém um espaço de 20px entre o header e o topo */
-  left: 50%;
-  transform: translateX(-50%); /* Centraliza o header na tela */
 }
+  
 
 /* Logo e nome do site */
 #ado {
@@ -85,3 +81,21 @@ nav a {
 
 }
 
+ul {  
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 24px;
+  font-weight: bold;
+}
